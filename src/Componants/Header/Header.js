@@ -303,7 +303,7 @@ function Header() {
                       ))}
                     </div>
                     <div className="lost-password mt-3">
-                      <a href="#">Lost Your Password?</a>
+                      <a href="/">Lost Your Password?</a>
                     </div>
                   </div>
                 </Tab>
@@ -349,7 +349,7 @@ function Header() {
                             id={`inline-${type}-1`}
                           />
                           <label className="form-check-label">
-                            I agree to the <a href="#">Privacy Policy</a>
+                            I agree to the <a href="/">Privacy Policy</a>
                           </label>
                         </div>
                       ))}
@@ -365,7 +365,7 @@ function Header() {
                             id={`inline-${type}-1`}
                           />
                           <label className="form-check-label">
-                            I agree to the <a href="#">Terms & Conditions</a>
+                            I agree to the <a href="/">Terms & Conditions</a>
                           </label>
                         </div>
                       ))}
