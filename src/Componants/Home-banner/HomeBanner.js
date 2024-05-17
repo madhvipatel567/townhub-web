@@ -12,7 +12,6 @@ import {
   FaDumbbell,
   FaStar,
   FaBed,
-  FaCheck,
   FaSmokingBan,
   FaWifi,
   FaPhone,
@@ -58,8 +57,6 @@ import explore_img_two from '../../Asset/Images/57.jpg';
 import explore_img_three from '../../Asset/Images/58.jpg';
 import explore_img_four from '../../Asset/Images/60.jpg';
 import explore_img_five from '../../Asset/Images/59.jpg';
-import cate_image_one from '../../Asset/Images/1_1.jpg';
-import img_avtar_one from '../../Asset/Images/avtar-1.jpg';
 import mob_img from '../../Asset/Images/api.png';
 import logo_img from '../../Asset/Images/logo.png';
 import mobi_one from '../../Asset/Images/mob-1.jpg';
@@ -71,15 +68,12 @@ import avtar_four from '../../Asset/Images/5.jpg';
 import client_one from '../../Asset/Images/c1.png';
 import client_two from '../../Asset/Images/c2.png';
 import client_three from '../../Asset/Images/c3.png';
-
 import 'react-tooltip/dist/react-tooltip.css';
-import { Tooltip } from 'react-tooltip';
 import { Tooltip as ReactTooltip } from 'react-tooltip';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 import { useEffect, useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { collectionData } from '../../Data';
 
