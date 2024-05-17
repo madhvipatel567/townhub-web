@@ -392,31 +392,31 @@ function Homebanner() {
                   </h4>
                   <ul className="list-unstyled d-flex justify-content-center align-items-center gap-5">
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <FaHamburger className="far" />
                         Restaurants
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <FaDollyFlatbed className="far" />
                         Hotels
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <MdOutlineShoppingBag className="far" />
                         Shops
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <FaDumbbell className="far" />
                         Fitness
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <FaCocktail className="far" />
                         Events
                       </a>
@@ -1028,7 +1028,7 @@ function Homebanner() {
                       {item.righticon}
                     </span>{' '}
                   </h3>
-                  <a className="d-flex align-items-center gap-2" href="#">
+                  <a className="d-flex align-items-center gap-2" href="/">
                     <IoLocationOutline className="location-icon" />{' '}
                     {item.address}
                   </a>
@@ -1554,6 +1554,7 @@ function Homebanner() {
                 height="450"
                 allowfullscreen=""
                 loading="lazy"
+                title="iframe"
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
